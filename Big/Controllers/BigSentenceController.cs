@@ -120,13 +120,16 @@ namespace Big.Controllers
                             CurrentLine += W[4 - line];
                             break;
                         case 'x':
-                            CurrentLine += L[4 - line];
+                            CurrentLine += X[4 - line];
                             break;
                         case 'y':
                             CurrentLine += Y[4 - line];
                             break;
                         case 'z':
                             CurrentLine += Z[4 - line];
+                            break;
+                        case ' ':
+                            CurrentLine += "           ";
                             break;
                         default:
                             break;
@@ -270,45 +273,87 @@ namespace Big.Controllers
 
         private String[] Q =
         {
+            "  QQQQQQ   ",
+            "QQ      QQ ",
+            "QQ      QQ ",
+            "  QQQQQQ   ",
+            "       QQ  ",
 
         };
 
         private String[] R =
-{
-
+        {
+            "RRRRRRRR   ",
+            "RR     RR  ",
+            "RRRRRRRR   ",
+            "RR      RR ",
+            "RR      RR "
         };
         private String[] S =
-{
-
+        {
+            "  SSSSSSSS ",
+            "SS         ",
+            " SSSSSSSS  ",
+            "        SS ",
+            " SSSSSSSS  ",
         };
         private String[] T =
-{
-
+        {
+            "TTTTTTTTTTTTT ",
+            "     TT       ",
+            "     TT       ",
+            "     TT       ",
+            "     TT       "
         };
         private String[] U =
-{
-
+        {
+            "UU      UU ",
+            "UU      UU ",
+            "UU      UU ",
+            " UU    UU  ",
+            "  UUUUUU   "
         };
 
         private String[] V =
-{
-
+        {
+            "VV      VV ",
+            " VV    VV  ",
+            "  VV  VV   ",
+            "   VVVV    ",
+            "    VV     "
         };
         private String[] W =
-{
+        {
+            "WW   WW   WW ",
+            "WW   WW   WW ",
+            " WW WW WW WW ",
+            "  WWWW WWWW  ",
+            "   WW   WW   "
 
         };
         private String[] X =
-{
-
+        {
+            "XX        XX ",
+            "  XX    XX   ",
+            "    XXXX    ",
+            "  XX    XX   ",
+            "XX        XX "
         };
         private String[] Y =
-{
-
+        {
+            "YY      YY ",
+            "  YY  YY   ",
+            "    YY     ",
+            "    YY     ",
+            "    YY     "
         };
         private String[] Z =
-{
-
+        {
+            "ZZZZZZZZZZ ",
+            "       ZZ  ",
+            "     ZZ    ",
+            "   ZZ      ",
+            "ZZZZZZZZZZ "
         };
 
 
